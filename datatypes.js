@@ -19,9 +19,9 @@ console.log(isLoggedIn); // Output: true
 
 // undefined
 let emptyVar;
-console.log(emptyVar); // Output: undefined
+console.log(emptyVar); // Output: undefined/ value not assigned
 
-// null
+// null = standalone value
 let cancelledOrder = null;
 console.log(cancelledOrder); // Output: null
 
