@@ -28,3 +28,24 @@ console.log(cancelledOrder); // Output: null
 // Symbol (use with caution as it's not very common)
 let uniqueSymbol = Symbol("uniqueID");
 console.log(uniqueSymbol); // Output: Symbol(uniqueID) (unique value)
+//undefined is a datatype
+//null is an object
+// Object
+const person = {
+    firstName: "Bob",
+    lastName: "Smith",
+    age: 25
+  };
+  console.log(person); // Output: { firstName: "Bob", lastName: "Smith", age: 25 }
+  
+  // Array
+  const colors = ["red", "green", "blue"];
+  console.log(colors[1]); // Output: "green" (accessing element by index)
+  
+  // Function
+  function greet(name) {
+    console.log("Hello, " + name + "!");
+  }
+  
+  greet("Charlie"); // Output: Hello, Charlie!
+  
